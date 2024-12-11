@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+    int sum_of_multiples = 0;
+    
+    for (int number = 100; number <= 200; ++number) {
+        if (number % 17 == 0) {
+            sum_of_multiples += number;
+        }
+    }
+    
+    std::cout << sum_of_multiples << std::endl;
+    
+    return 0;
+}
