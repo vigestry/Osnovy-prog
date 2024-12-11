@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+// Функция для нахождения скалярного произведения
+int scalarProduct(int x1, int y1, int x2, int y2) {
+    return x1 * x2 + y1 * y2;
+}
+
+int main() {
+    // Координаты векторов A(x1, y1) и B(x2, y2)
+    int x1 = 3, y1 = 4; // Пример: вектор A
+    int x2 = 1, y2 = 2; // Пример: вектор B
+
+    // Вычисление скалярного произведения
+    int result = scalarProduct(x1, y1, x2, y2);
+
+    // Вывод результата
+    cout << "Скалярное произведение: " << result << endl;
+
+    return 0;
+}
